@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>Peterpeterp-ify!</title>
+<meta name="description" content="peterpeterp-ify any image!">
+<meta name="keywords" content="peterpeterp image">
+</head>
+
+<body>
+    <div>
+        <input type="file" id="file_select" onchange="preview_image(event)" name="item_image"  ></input>
+        <input type="range" min="1" max="60" value="35" class="slider" id="change_maxframe">
+        <label for="change_maxframe" id="maxframe">Max Frame: 35</div>
+    </div>
+    <img id="output_image"/>
+    <canvas id="canvas" width="512" height="512"></canvas>
+</body>
+<script src="index.js"></script>
+</html>
